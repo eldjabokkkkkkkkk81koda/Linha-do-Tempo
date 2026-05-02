@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-black: #0A0A0A;
+  --color-wine: #6B0D1A;
+  --color-gold: #DAAF37;
+  --color-light: #E6E6E6;
+
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+@media (pointer: fine) {
+  body {
+    cursor: none;
+  }
+}
+
+body {
+  background-color: var(--color-black);
+  color: var(--color-light);
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Custom glow classes for Phoenix */
+.glow-gold {
+  filter: drop-shadow(0 0 10px rgba(218, 175, 55, 0.6));
+}
+
+.glow-wine {
+  filter: drop-shadow(0 0 15px rgba(107, 13, 26, 0.8));
+}
+
+/* Timeline Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-black);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-wine);
+}

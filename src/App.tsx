@@ -26,7 +26,7 @@ export default function App() {
 
       <header className="relative w-full max-w-6xl mx-auto px-6 py-8 flex items-center justify-between z-20">
         <motion.a 
-          href="https://osvingadores.netlify.app/"
+          href="https://pagina-inicial.vingadores.workers.dev/"
           whileHover={{ x: -5 }}
           whileTap={{ scale: 0.95 }}
           className="interactive text-gold/70 hover:text-gold transition-colors font-montserrat flex items-center gap-2 group text-xs sm:text-sm uppercase tracking-widest bg-black/40 px-4 py-2 rounded-full border border-white/5 backdrop-blur-md cursor-pointer no-underline"

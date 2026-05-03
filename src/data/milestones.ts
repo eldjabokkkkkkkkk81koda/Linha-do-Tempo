@@ -24,50 +24,26 @@ export interface Milestone {
 export const milestones: Milestone[] = [
   {
     id: 1,
-    date: "10 de Abril",
-    title: "A Fagulha Inicial",
-    description: "Formação da equipe e escolha da Fênix como mascote. Definimos nosso propósito: ser agentes de paz e justiça.",
-    icon: "sparkles",
-    details: "Foi numa tarde de discussões que percebemos que nossa união seria a chama para transformar realidades. Inspirados pelo ODS 16, decidimos que cada ação seria guiada pela coragem e pela empatia."
+    date: "05 de Março",
+    title: "A Cor da Força",
+    description: "Definição do vinho como a cor oficial da nossa identidade visual.",
+    icon: "flame",
+    details: "Escolhemos a cor vinho para representar a profundidade, a força, o sangue quente e a vitalidade da nossa luta. Um tom marcante que simboliza a coragem necessária para defender a igualdade étnico-racial."
   },
   {
     id: 2,
-    date: "15 de Abril",
-    title: "Primeiro Voo Solidário",
-    description: "Arrecadação de alimentos no bairro. Superamos a meta inicial em 30%.",
-    icon: "flame",
-    details: "Com sorrisos e cartazes, batemos de porta em porta. A comunidade abraçou nossa causa, e o fogo da solidariedade se acendeu mais forte."
+    date: "15 de Março",
+    title: "A Fagulha Inicial",
+    description: "Nossa primeira reunião onde definimos o mascote da equipe: A Fênix.",
+    icon: "sparkles",
+    details: "Inspirados pelo ODS 18 (Igualdade Étnico-Racial), percebemos que o renascimento e a resistência deveriam ser o nosso símbolo. A Fênix foi escolhida para representar essa jornada contínua por igualdade."
   },
   {
     id: 3,
-    date: "22 de Maio",
-    title: "Superando as Cinzas",
-    description: "Enfrentamos nosso primeiro grande desafio logístico durante a primeira ação de inverno.",
+    date: "29 de Abril",
+    title: "Identidade Forjada",
+    description: "Definição oficial do nome da nossa equipe: Os Vingadores.",
     icon: "bird",
-    details: "A chuva forte ameaçou cancelar o evento, mas a equipe se reorganizou em tempo recorde, improvisando lonas e transportes. Renascemos da dificuldade e transformamos o caos em sorrisos."
-  },
-  {
-    id: 4,
-    date: "10 de Agosto",
-    title: "Asas da Justiça",
-    description: "Realizamos uma roda de conversa e ação social numa comunidade sobre direitos e cidadania.",
-    icon: "feather",
-    details: "Levamos informação, escuta ativa e apoio para mais de 100 famílias. Mostramos que a fênix não apenas voa alto, mas estende suas asas para abrigar quem precisa."
-  },
-  {
-    id: 5,
-    date: "12 de Outubro",
-    title: "O Canto da Esperança",
-    description: "Festival do Dia das Crianças com oficinas de arte, leitura e recreação livre.",
-    icon: "sun",
-    details: "Transformamos um espaço degradado num verdadeiro festival de cores. As crianças pintaram suas próprias fênix, perpetuando o ciclo de esperança para a próxima geração."
-  },
-  {
-    id: 6,
-    date: "Hoje & Futuro",
-    title: "O Voo Contínuo",
-    description: "Nossa jornada está apenas ganhando altitude. Planejamento estratégico das próximas missões.",
-    icon: "crown",
-    details: "Fortalecidos pelas lições do passado e guiados pelo nosso propósito original, nosso time agora voa em perfeita sincronia. A chama da paz e da justiça jamais se apagará."
+    details: "Diferente do sentido literal da palavra, não buscamos vingança, mas sim a vindicação de direitos. 'Os Vingadores' nasce como um nome forte para proteger e lutar ativamente pelas causas do ODS 18 de forma inabalável."
   }
 ];

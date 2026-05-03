@@ -42,7 +42,7 @@ export default function App() {
           className="flex bg-[#111111]/60 px-5 py-2 rounded-full border border-white/10 backdrop-blur-md shadow-[0_0_20px_rgba(107,13,26,0.3)]"
         >
           <span className="font-bebas text-lg md:text-xl text-gold tracking-widest relative">
-            Paz e Justiça
+            Igualdade Étnico-Racial
             <span className="absolute -inset-1 blur-md bg-gold/20 z-0"></span>
           </span>
         </motion.div>
